@@ -1,1 +1,3 @@
 # ModbusConnect4
+
+modbus connect 4 is an application written in c# to listen to serial traffic (modbus RTU) between a modbus master and a modbus slave. This application is able to decrypt the pure hexadecimal present in the serial and show it in a table with additional features such as the ability to activate/deactivate the display of requests/responses at will or the ability to manually choose the settings for the connection to the serial. There is also a log feature so everything that is done within the application will be saved in a file named according to the time of day like this: "ModbusConnect4_log_HH_MM_SS.log"
